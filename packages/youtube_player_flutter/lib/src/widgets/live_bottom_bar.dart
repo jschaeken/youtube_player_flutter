@@ -116,9 +116,9 @@ class _LiveBottomBarState extends State<LiveBottomBar> {
               ),
             ),
           ),
-          widget.showLiveFullscreenButton
-              ? FullScreenButton(controller: _controller)
-              : const SizedBox(width: 14.0),
+          // widget.showLiveFullscreenButton
+          //     ? FullScreenButton(controller: _controller)
+          //     : const SizedBox(width: 14.0),
         ],
       ),
     );
